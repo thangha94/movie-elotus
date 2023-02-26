@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> **[Gif to demonstrate here](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNmYzU1OTlmNmRjZGQ5MmMzOWU2OWEyZDUxNTAzZGQ1YTA2OTJhYiZjdD1n/GtXrHrwwKQ5yK5C2fR/giphy.gif)**.
+> [Gif to demonstrate 1](https://www.kapwing.com/videos/63fb05426633370017ef032f) OR [Gif to demonstrate 2](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNmYzU1OTlmNmRjZGQ5MmMzOWU2OWEyZDUxNTAzZGQ1YTA2OTJhYiZjdD1n/GtXrHrwwKQ5yK5C2fR/giphy.gif).
 
 ## License
 
