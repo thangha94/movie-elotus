@@ -1,0 +1,53 @@
+.container {
+  margin-top: 2rem;
+  position: relative;
+  height: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.poster, .detail {
+  position: relative;
+  z-index: 2;
+}
+.poster {
+  height: 85%;
+  width: 20rem;
+  margin-left: 2rem;
+  border-radius: 2rem;
+}
+.detail {
+  flex: 2 1 10rem;
+  margin-left: 1rem;
+}
+.title {
+  color: white;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.generalGroup {
+  color: rgb(243, 238, 238);
+  font-size: 1rem;
+}
+.tagline {
+  color: rgb(191, 189, 189);
+  font-size: 1.1rem;
+}
+.overviewTitle {
+  color: white;
+  font-weight: bold;
+}
+.overviewContent {
+  color: white;
+}
+.runtime, .genres {
+  margin-left: 1rem;
+}

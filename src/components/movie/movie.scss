@@ -1,0 +1,105 @@
+$poster-height: 70%;
+
+.container {
+  position: relative;
+  max-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  overflow: hidden;
+  margin: 0.5rem;
+  cursor: pointer;
+  .poster {
+      height: $poster-height;
+      border-radius: 0.5rem;
+      z-index: 2;
+  }
+  span {
+    padding: 0.4rem;
+    z-index: 2;
+  }
+}
+.groupElm {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+.overview, .backdrop {
+  display: none;
+  z-index: 2;
+}
+.voteAverage {
+  position: absolute;
+  top: calc($poster-height - 9%);
+  left: 1%;
+  color: white;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  border: 2px solid greenyellow;
+  color: greenyellow;
+  box-sizing: border-box;
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+  max-height: 80%;
+}
+.releaseDate {
+  color: rgb(80, 79, 79);
+}
+
+:global(.list-type) {
+  $poster-height-list: 100%;
+  .container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 18rem;
+  }
+  .voteAverage {
+    position: absolute;
+    top: calc($poster-height-list - 9%);
+    left: 0.1%;
+    color: white;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    box-sizing: border-box;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  .poster {
+    max-width: 14rem;
+    height: $poster-height-list;
+    flex: 1 1 10rem;
+  }
+  .groupElm {
+    flex: 1 1 10rem;
+  }
+  .overview {
+    display: block;
+    flex: 10 1 10rem;
+    font-weight: bold;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .backdrop {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    opacity: 0.2;
+    height: 100%;
+  }
+}
