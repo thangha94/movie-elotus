@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-> Please record screen to a GIF file and attach link here
+> **[Gif to demonstrate here](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWNmYzU1OTlmNmRjZGQ5MmMzOWU2OWEyZDUxNTAzZGQ1YTA2OTJhYiZjdD1n/GtXrHrwwKQ5yK5C2fR/giphy.gif)**.
 
 ## License
 
